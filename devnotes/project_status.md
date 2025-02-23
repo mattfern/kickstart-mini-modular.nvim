@@ -14,7 +14,7 @@
    - ✅ Documented in mini_nvim_integration_plan.md
 
 3. Phase 1 Implementation (Core Modules)
-   - ✅ Created lua/kickstart/plugins/mini.lua
+   - ✅ Created lua/custom/plugins/mini.lua
    - ✅ Configured core mini.nvim modules:
      - mini.basics
      - mini.pairs
@@ -27,7 +27,7 @@
 1. Main Configuration
    - init.lua (entry point)
    - lua/lazy-plugins.lua (plugin management)
-   - lua/kickstart/plugins/mini.lua (mini.nvim configuration)
+   - lua/custom/plugins/mini.lua (mini.nvim configuration)  # ✓ Updated path
 
 2. Documentation
    - devnotes/nvim_configuration.md (base config documentation)

@@ -87,7 +87,7 @@ mini.nvim is a collection of independent Lua modules for Neovim that provides es
 ## Configuration Structure
 
 ```lua
--- Example configuration structure
+-- Location: lua/custom/plugins/mini.lua
 return {
   {
     'echasnovski/mini.nvim',
@@ -126,7 +126,7 @@ return {
 ```
 
 ## Migration Strategy
-1. Start with core modules
+1. Start with core modules in lua/custom/plugins/mini.lua
 2. Test each module individually
 3. Document any issues or conflicts
 4. Create fallback plans if needed

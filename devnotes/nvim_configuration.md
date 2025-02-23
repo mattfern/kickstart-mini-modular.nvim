@@ -54,9 +54,7 @@ UI/UX:
 - Indent guides
 
 ## Extension Points
-- Custom plugin directory at `lua/custom/plugins/` ready for user additions
-- Well-documented configuration with helpful comments and help references
-- Modular structure makes it easy to add or modify functionality
+- Custom plugin directory at `lua/custom/plugins/` contains user additions including mini.nvim configuration
 
 ## Notable Features
 - Nerd Font support enabled
@@ -90,4 +88,6 @@ This configuration is particularly well-suited for:
     ├── lazy-plugins.lua  # Plugin configurations
     └── custom/
         └── plugins/
-            └── init.lua  # Custom plugins (empty)
+            ├── init.lua  # Custom plugins (empty)
+            └── mini.lua  # mini.nvim configuration
+```
